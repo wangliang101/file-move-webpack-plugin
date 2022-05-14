@@ -1,7 +1,7 @@
 {
   "name": "file-move-webpack-plugin",
   "version": "1.0.1",
-  "description": "用于移动文件或者文件夹，例如将webpack打包出的ssourcemap从output中移到其他地方",
+  "description": "用于移动文件或者文件夹，例如将webpack打包出的sourcemap从output移到其他地方",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
