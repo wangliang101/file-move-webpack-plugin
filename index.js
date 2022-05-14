@@ -1,3 +1,3 @@
 const FileMoveWebpackPlugin = require("./src/fileMove");
 
-export { FileMoveWebpackPlugin };
+module.exports = { FileMoveWebpackPlugin };
