@@ -1,6 +1,6 @@
 {
   "name": "file-move-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "用于移动文件或者文件夹，例如将webpack打包出的sourcemap从output移到其他地方",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/wangliang101/file-move-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/wangliang101/file-move-webpack-plugin#readme"
+  "homepage": "https://github.com/wangliang101/file-move-webpack-plugin#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
