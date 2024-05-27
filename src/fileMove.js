@@ -34,7 +34,7 @@ class FileMoveWebpackPlugin {
       // 判断目标文件夹是否存在，不存在则创建
       const targetFilestatus = await this.isFileExisted(targetPath);
       if (!targetFilestatus) {
-        console.error("目标文件夹不存在，即将创建...");
+        console.log("目标文件夹不存在，即将创建...");
         const { status: newFolderStatus, errorMsg: newFolderErrMsg } =
           await this.mkdir(targetPath);
         if (!newFolderStatus) {
