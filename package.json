@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/wangliang101/file-move-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/wangliang101/file-move-webpack-plugin#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/wangliang101/file-move-webpack-plugin#readme"
 }
